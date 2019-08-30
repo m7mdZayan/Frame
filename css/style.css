@@ -10,6 +10,8 @@ body {
   margin: 0 auto;
 }
 
+/****** start properties the header *****/
+
 header {
   min-height: 100vh;
   background-image: url(../images/laptop.jpg);
@@ -82,7 +84,7 @@ header a:hover {
   color: #1a58a5;
   transition: all 0.2s ease-in-out;
 }
-
+/* mobile only !! styles *************/
 @media (max-width: 767px) {
   .navbarBrand {
     display: none;
@@ -102,6 +104,7 @@ header a:hover {
   }
 }
 
+/*** all except mobiles  */
 @media (min-width: 767px) {
   .navbarBrand {
     display: inline;
@@ -114,3 +117,27 @@ header a:hover {
     float: right;
   }
 }
+
+/****** end properties the header *****/
+
+/****** start properties the services section*****/
+
+#services .service {
+  width: 33.3333%;
+  float: left;
+  padding: 25px 15px;
+  box-sizing: border-box;
+}
+
+#services i {
+  font-size: 40px;
+  color: #1a58a5;
+}
+
+h3 {
+  font-size: 25px;
+  color: #1a58a5;
+  margin: 10px 0;
+}
+
+/****** end properties the services section*****/
