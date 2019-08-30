@@ -123,8 +123,6 @@ header a:hover {
 /****** start properties the services section*****/
 
 #services .service {
-  width: 33.3333%;
-  float: left;
   padding: 25px 15px;
   box-sizing: border-box;
 }
@@ -138,6 +136,15 @@ h3 {
   font-size: 25px;
   color: #1a58a5;
   margin: 10px 0;
+  text-transform: capitalize;
+}
+
+/*** all except mobiles  */
+@media (min-width: 767px) {
+  #services .service {
+    width: 33.3333%;
+    float: left;
+  }
 }
 
 /****** end properties the services section*****/
