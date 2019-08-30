@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header {
+  min-height: 100vh;
+  background-image: url(../images/laptop.jpg);
+  background-size: cover;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.navbarBrand a {
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 40px;
+  text-transform: capitalize;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 70px;
+  text-transform: capitalize;
+}
+header h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+header .buttons {
+  margin: 20px auto;
+  width: 300px;
+}
+header .btn-theme {
+  background-color: #1a58a5;
+  color: #fff;
+  border: none;
+  width: 120px;
+  padding: 20px;
+  margin-right: 20px;
+  border: 1px solid #1a58a5;
+  transition: all 0.2s ease-in-out;
+}
+
+header .btn-featurs {
+  background: none;
+  color: #fff;
+  border: none;
+  width: 120px;
+  padding: 20px;
+  border: 1px solid #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+header a:hover {
+  color: #1a58a5;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  .navbarBrand {
+    display: none;
+    margin: 0 auto;
+    width: 100px;
+  }
+
+  header nav .navbarLinks {
+    margin: 40px auto;
+    width: 120px;
+  }
+  header nav ul li {
+    display: block;
+  }
+}
+
+@media (min-width: 767px) {
+  .navbarBrand {
+    display: inline;
+  }
+  header nav ul li {
+    float: left;
+  }
+
+  header nav .navbarLinks {
+    float: right;
+  }
+}
